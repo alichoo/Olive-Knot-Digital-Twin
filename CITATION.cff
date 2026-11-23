@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or digital twin benchmark, please cite the accompanying article."
+title: "Closed-Loop Olive Knot Management in an Orchard Digital Twin: Hierarchical Reinforcement Learning over Agronomic Skills, Benchmarked on Real Reanalysis Weather"
+type: software
+authors:
+  - family-names: "Chouikhi"
+    given-names: "Ali"
+    affiliation: "Laboratory of Advanced Systems, Polytechnic School of Tunisia (EPT), Carthage University"
+    email: "ali.chouikhi@isim.rnu.tn"
+  - family-names: "Selmi"
+    given-names: "Sawsan"
+    affiliation: "Innov'Com Laboratory, SUP'COM, Carthage University"
+  - family-names: "Mars"
+    given-names: "Mourad"
+    affiliation: "Department of Artificial Intelligence, Prince Mohammad Bin Fahd University"
+  - family-names: "AlGhamdi"
+    given-names: "Mohammed J."
+    affiliation: "Department of Software Engineering, Umm Al-Qura University"
+  - family-names: "Jouili"
+    given-names: "Khalil"
+    affiliation: "Laboratory of Advanced Systems, Polytechnic School of Tunisia (EPT), Carthage University"
+  - family-names: "Sakli"
+    given-names: "Hedi"
+    affiliation: "LR-Sys'Com-ENIT, National Engineering School of Tunis, University of Tunis El Manar"
+    email: "saklihedi12@gmail.com"
+repository-code: "https://github.com/alichoo/Olive-Knot-Digital-Twin"
+license: MIT
+year: 2026
+keywords:
+  - olive knot
+  - hierarchical reinforcement learning
+  - digital twin
+  - precision agriculture
+  - IoT sensing
+  - safe reinforcement learning

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.DS_Store
+*.log
+# Large downloaded weather archives and locally regenerated artifacts
+data/era5/*.json
+!data/README.md
+!checkpoints/README.md
+!results/README.md
+!results/paper_summary_metrics.csv

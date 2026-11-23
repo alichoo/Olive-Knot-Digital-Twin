@@ -1,0 +1,118 @@
+{
+  "orchard": {
+    "S": 6,
+    "rows": 2,
+    "cols": 3,
+    "n_trees": 100,
+    "T": 243
+  },
+  "epidemic": {
+    "W": 14,
+    "W0_nominal": 14,
+    "Lambda": 45,
+    "beta": 0.02,
+    "gamma_c": 8.0,
+    "nu": 0.5,
+    "r_ref": 5.0,
+    "l_min": 2,
+    "rho_0": 0.01,
+    "m_hot": 2,
+    "rho_lo": 0.05,
+    "rho_hi": 0.12,
+    "lambda_leaf": 0.004,
+    "harvest_wound": 0.35,
+    "frost_wound_max": 0.25,
+    "hail_wound": 0.4
+  },
+  "copper": {
+    "p_max": 0.8,
+    "delta_T": 0.02,
+    "delta_R": 0.006,
+    "phi_washoff": 0.2
+  },
+  "perception": {
+    "kappa": 0.6,
+    "sigma_n": 0.02,
+    "theta_det": 0.03,
+    "sigma_r": 0.1,
+    "sigma_f": 0.1,
+    "sigma_O": 0.1,
+    "phi_f": 0.55
+  },
+  "pruning": {
+    "eta": 0.6,
+    "w_p": 0.5
+  },
+  "rules": {
+    "r_blk": 2.0,
+    "g_s": 10,
+    "K_s": 8,
+    "g_p": 21,
+    "K_p": 2,
+    "K_tot": 4,
+    "F_w": 3
+  },
+  "skills": {
+    "eps_r": 0.002,
+    "theta_b": 0.03,
+    "tau_max": 30,
+    "eta_0": 0.2
+  },
+  "weights": {
+    "w_D": 1.0,
+    "w_C": 0.15,
+    "w_E": 0.05,
+    "w_P": 0.6,
+    "w_V": 0.5
+  },
+  "ppo": {
+    "hidden_dim": 64,
+    "gamma": 0.999,
+    "gae_lambda": 0.95,
+    "clip_eps": 0.2,
+    "c_v": 0.5,
+    "c_e": 0.01,
+    "lr": 0.0003,
+    "n_envs": 64,
+    "n_iters": 500,
+    "epochs": 4,
+    "minibatch_size": 512
+  },
+  "regions": {
+    "Sfax": {
+      "lat": 34.74,
+      "lon": 10.76
+    },
+    "Medenine": {
+      "lat": 33.35,
+      "lon": 10.5
+    },
+    "Kairouan": {
+      "lat": 35.68,
+      "lon": 10.1
+    },
+    "Beja": {
+      "lat": 36.73,
+      "lon": 9.18
+    }
+  },
+  "splits": {
+    "train_years": [
+      2000,
+      2014
+    ],
+    "test_years": [
+      2015,
+      2023
+    ],
+    "tuning_seeds": [
+      0,
+      63
+    ],
+    "test_seeds": [
+      100000,
+      100199
+    ],
+    "train_seed_offset": 200000
+  }
+}
