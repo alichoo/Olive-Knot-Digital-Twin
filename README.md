@@ -7,8 +7,6 @@
 Official companion repository for the manuscript:
 
 > **Closed-Loop Olive Knot Management in an Orchard Digital Twin: Hierarchical Reinforcement Learning over Agronomic Skills, Benchmarked on Real Reanalysis Weather**  
-> Ali Chouikhi, Sawsan Selmi, Mourad Mars, Mohammed J. AlGhamdi, Khalil Jouili, and Hedi Sakli  
-> *Submitted to MDPI Technologies (2026)*
 
 ## Overview
 
